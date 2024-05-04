@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    background-color: #a0b8f8;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+}
+.box1 { 
+    max-width: 300px;
+    /* height: 400px;   */
+    background-color: rgb(255, 255, 255);
+    /* justify-content: flex-end; */
+    display: flex; 
+    flex-direction: column;
+    /* border: solid 10px; */
+    border-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 1em;
+    /* gap: 0.1rem; */
+}
+#sizes{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    /* margin-bottom: 1rem; */
+}
+.box2{
+    /* width: 200px; */
+    /* height: 200px;   */
+    background-color: rgb(255, 255, 255);
+    justify-content: center; 
+    display: flex; 
+    border-radius: 1rem;
+    align-items: center;
+    
+}
+
+.box3{
+    /* width: 200px; */
+    /* height: 200px;   */
+    background-color: rgb(255, 255, 255);
+    justify-content: center; 
+    display: flex; 
+    border-radius: 1rem;
+    align-items: center;
+    
+}
+
+.box4 {
+    /* width: 200px; */
+    /* height: 200px;   */
+    background-color: rgb(255, 255, 255);
+    /* justify-content: center;  */
+    /* display: flex;  */
+    border-radius: 1rem;
+    /* font-size: 15px;  */
+    text-align: center;
+    font-weight: 700;
+    padding: 1em;
+    
+}
+.box5 {
+    /* width: 200px; */
+    /* height: 200px;   */
+    background-color: rgb(255, 255, 255);
+    /* justify-content: center;  */
+    /* display: flex;  */
+    border-radius: 1rem;
+    color: hsl(210, 19%, 66%);
+    /* font-size: 12px;  */
+    text-align: center;
+    padding: 0.1em;
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.attribution{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    bottom: 0px;
+    position: fixed;
+    font-size: 29px;
+}
+.attribution a{
+    color: hsl(239, 92%, 47%);
+    transition: all 4s ease;
+}
+.attribution a:hover{
+    color: hsl(59, 92%, 47%);
+    font-size: 100px;
+}
